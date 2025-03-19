@@ -1,0 +1,73 @@
+body {
+    font-family: "Source Sans 3", sans-serif;
+    padding-left: 33%;
+    padding-right: 33%;
+    padding-top: 4%;
+    height: 100vh;
+}
+
+.main {
+    align-items: center;
+    text-align: center;
+    padding: 8%;
+    border-radius: 11.755px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1.5px;
+    background: linear-gradient(45deg, #ffffff, #8ab3cf, #1da5ff4e);
+    overflow: clip;
+    background-size: 300% 300%;
+    animation: back 30s ease infinite;
+    
+}
+
+#lista_celebrantes,
+#lista_participantes,
+#lista_celebracoes,
+#lista_aniversariantes {
+    list-style: none;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    font-size: 15px;
+    margin-bottom: 2em;
+    border-radius: 15px;
+    padding: 1em;
+    border: none;
+    background-color: #bdd1de;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1da5ff4e;
+    color: white;
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 10px;
+    background-color: #1da5ff4e;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+ul li {
+    font-size: 20px;
+    color: white;
+}
+
